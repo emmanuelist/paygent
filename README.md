@@ -134,19 +134,13 @@ cd frontend && npm install && cd ..
 
 ### Configuration
 
-1. **Generate a wallet** (if you don't have one):
-
-```bash
-npm run keygen
-```
-
-2. **Create environment file**:
+1. **Create environment file**:
 
 ```bash
 cp .env.example .env
 ```
 
-3. **Configure environment variables**:
+2. **Configure environment variables**:
 
 ```env
 # Wallet Configuration
@@ -166,7 +160,7 @@ PORT=3402
 DEMO_SERVER_PORT=3403
 ```
 
-4. **Get Testnet STX**:
+3. **Get Testnet STX**:
 
 Visit [Stacks Testnet Faucet](https://explorer.hiro.so/sandbox/faucet?chain=testnet) and request tokens.
 
@@ -591,14 +585,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [CoinGecko](https://coingecko.com) - Cryptocurrency data
 - [NewsAPI](https://newsapi.org) - News aggregation
 
----
-
-<div align="center">
-
-**[Website](https://paygent.dev)** • **[Documentation](https://docs.paygent.dev)** • **[Discord](https://discord.gg/paygent)** • **[Twitter](https://twitter.com/paygent_ai)**
-
-Built with ❤️ for the Agentic Economy
-
-*Submitted to the [x402 Stacks Hackathon](https://dorahacks.io/hackathon/x402-stacks/detail)*
-
-</div>
